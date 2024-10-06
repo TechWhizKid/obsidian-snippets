@@ -1,0 +1,30 @@
+/* Graph View Mod */
+
+.theme-dark .graph-view.color-line {
+    color: var(--background-modifier-border);
+    color: DarkSlateGray;
+}
+
+.theme-light .graph-view.color-line {
+    color: var(--text-accent);
+}
+
+.theme-light .graph-view.color-arrow {
+    color: rgb(92, 200, 99);
+}
+
+.theme-light .graph-view.color-fill-tag {
+    color: rgb(68, 1, 84);
+}
+
+.theme-light .graph-view.color-fill-attachment {
+    color: #277f8e;
+}
+
+.theme-light .graph-view.color-fill-highlight {
+    color: var(--interactive-accent);
+}
+
+.theme-light .graph-view.color-line-highlight {
+    color: rgb(var(--interactive-accent-rgb));
+}

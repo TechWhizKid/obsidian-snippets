@@ -1,0 +1,15 @@
+/* Custom background color for ==highlights== */
+
+:root {
+    --color: DarkSlateGray;
+}
+
+.markdown-preview-view mark {
+    background-color: var(--color);
+    color: var(--text-normal);
+}
+
+.cm-s-obsidian span.cm-highlight {
+    background-color: var(--color);
+    color: var(--text-normal);
+}
