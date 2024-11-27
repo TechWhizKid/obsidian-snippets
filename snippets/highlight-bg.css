@@ -1,15 +1,18 @@
-/* Custom background color for ==highlights== */
+/* Custom background color for all highlights */
 
 :root {
     --color: DarkSlateGray;
 }
 
-.markdown-preview-view mark {
+.markdown-rendered mark,
+.cm-s-obsidian span.cm-formatting-highlight,
+.cm-s-obsidian span.cm-highlight,
+.search-result-file-matched-text {
     background-color: var(--color);
+    border-top: 1px solid var(--color);
+    border-bottom: 1px solid var(--color);
     color: var(--text-normal);
-}
-
-.cm-s-obsidian span.cm-highlight {
-    background-color: var(--color);
-    color: var(--text-normal);
+    padding: 0 0.15em;
+    border-radius: 0.1em;
+    border: none;
 }
