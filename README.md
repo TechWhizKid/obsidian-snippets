@@ -59,6 +59,16 @@ _To add a CSS snippets on a Mobile/Tablet, you will need to follow these steps â
 
 <section>
   <h4 align="center">
+    <a href="./snippets/extra-callout.css">extra-callout.css</a>
+  </h4>
+  <ul>
+    <li>Adds extra callout types.</li>
+  </ul>
+  <img src="./images/extra-callout.png">
+</section>
+
+<section>
+  <h4 align="center">
     <a href="./snippets/graph-mod.css">graph-mod.css</a>
   </h4>
   <ul>

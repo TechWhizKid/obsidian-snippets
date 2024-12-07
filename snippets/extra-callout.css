@@ -1,0 +1,61 @@
+/* Custom Callouts */
+
+.callout[data-callout="thoughts"] {
+    --callout-color: 135, 135, 135;
+    --callout-icon: lucide-message-circle;
+}
+
+.callout[data-callout="reminder"] {
+    --callout-color: 255, 255, 153;
+    --callout-icon: lucide-bell;
+}
+
+.callout[data-callout="idea"] {
+    --callout-color: 255, 215, 0;
+    --callout-icon: lucide-lightbulb;
+}
+
+.callout[data-callout="research"] {
+    --callout-color: 173, 216, 230;
+    --callout-icon: lucide-search;
+}
+
+.callout[data-callout="development"] {
+    --callout-color: 173, 216, 230;
+    --callout-icon: lucide-code;
+}
+
+.callout[data-callout="feedback"] {
+    --callout-color: 255, 99, 71;
+    --callout-icon: lucide-message-square;
+}
+
+.callout[data-callout="inspiration"] {
+    --callout-color: 255, 223, 186;
+    --callout-icon: lucide-star;
+}
+
+.callout[data-callout="connection"] {
+    --callout-color: 240, 230, 140;
+    --callout-icon: lucide-link;
+}
+
+.callout[data-callout="plan"] {
+    --callout-color: 135, 206, 250;
+    --callout-icon: lucide-calendar;
+}
+
+.callout[data-callout="goal"] {
+    --callout-color: 144, 238, 144;
+    --callout-icon: lucide-target;
+}
+
+.callout[data-callout="strategy"] {
+    --callout-color: 100, 149, 237;
+    --callout-icon: lucide-target;
+}
+
+.callout[data-callout="options"] {
+    --callout-color: 216, 191, 216;
+    --callout-icon: lucide-list;
+}
